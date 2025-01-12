@@ -35,7 +35,7 @@
 }
 
 .container {
-    max-width: 1813px;
+    width: 1400px;
     height: 8118px;
     background-color: #F9F6F0;
 }
@@ -45,7 +45,7 @@
 
 nav {
     display: flex;
-    padding: 30px 0px 20px 306px;
+    padding: 30px 0px 20px 90px;
     border-bottom: 1px solid rgba(236, 197, 197, 0.151);
     position: relative;
     z-index: 3;
@@ -53,14 +53,14 @@ nav {
 
 .header {
     background-image: url("./images/hero-bg.jpg");
-    height:800px ;
+    height:750px ;
 }
 
 .navbar-h1 {
     color: rgb(255, 255, 255);
     font-size: 28px;
     font-family:r-700;
-    padding-right: 470px;
+    padding-right: 410px;
 }
 
 .navbar-span {
@@ -109,9 +109,10 @@ a:hover {
 
 /* -------- #HEADER START ---------*/
 header {
+    width: 100%;
     display: flex;
     justify-content: space-between;
-    padding: 170px 0px 0px 306px;
+    padding: 130px 0px 0px 90px;
 }
 
 /* -------- #TOP LEFT START ---------*/
@@ -141,6 +142,7 @@ header {
 }
 
 .top-button {
+    position: relative;
     width: 154px;
     height: 45px;
     color:rgb(255, 255, 255);
@@ -149,6 +151,7 @@ header {
     background-color: hsl(32, 100%, 59%);
     border: none;
     cursor: pointer;
+    z-index: 4;
 }
 
 .top-button:hover {
@@ -163,32 +166,34 @@ header {
 /* -------- #TOP RIGHT START ---------*/
 .top-right-img1 {
     position: relative;
-    top: -220px;
-    left: -50px;
-    z-index: 2;
+    left: -100px;
+    top: -10px;
+    z-index: 3;
 }
 
 #burger-img {
-    width: 820px;
-    height: 750px;
+    width: 620px;
+    height: 550px;
 }
 
 .top-right-img2 {
-    position: absolute;
-    top: -54px;
-    left: 534px;
-    /* z-index: 1; */
+    position: relative;
+
+    top: -870px;
+    margin-left: -670px;
+    /* right: 0; */
+    z-index: 1;
 }
 .top-right-img3 {
-    position: absolute;
-    margin-top:-1150px;
-    margin-left: -160px;
-    z-index: 1;
+    position: relative;
+    margin-top:-1555px;
+    margin-left: -205px;
+    z-index: 2;
 }
 
 #right-img {
-    width: 1100px;
-    height: 1000px;
+    width: 875px;
+    height: 750px;
 }
 
 /* -------- #TOP RIGHT END ---------*/
@@ -201,23 +206,110 @@ header {
 
 .menu {
     display: flex;
-    padding: 200px 0px 0px 306px;
+    padding: 200px 100px 0px 90px;
 }
 
 
 /* -------- #PIZZA STAR ---------*/
 .pizza {
+
+    width: 280px;
+    height: 508px;
+    padding: 40px 30px;
     background-color: #ffffff;
     margin-right: 15px;
     border: 3px solid #00000000;
     cursor: pointer;
+    text-align: center;
+    border: none;
+    background: linear-gradient(-10deg, #FF9D2E 30%, #ffffff 0%);
 }
 
-.pizza:hover {
-    background-color: #FEE08B;
+.pizza{
+    border: 1px solid #f3f2f1f1;
+}
+
+.pizza-p1 {
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+.pizza-h1 {
+    color: #000;
+    font-size: 22px;
+    font-family: r-600;
+    padding-bottom: 20px;
+}
+
+.pizza-p2 {
+    color: rgb(179, 176, 176);
+    font-size: 16px;
+    font-family: r-400;
+    line-height: 26px;
+    padding-bottom: 10px;
+}
+
+.pizza-img {
+    width: 200px;
+    height: 200px;
 }
 /* -------- #PIZZA END ---------*/
 
-
+.menu-word {
+    margin-top: 40px;
+    margin-left: 580px;
+    width: 180px;
+    height: 14px;
+    border-radius: 50px;
+    border:1px solid #FF9D2E;
+    cursor: pointer;
+    margin-bottom: 100px;
+}
+.menu-words {
+    margin-top: 3px;
+    margin-left: 7px;
+    width: 160px;
+    height: 5px;
+    border-radius: 50px;
+    /* border:1px solid #FF9D2E; */
+    background: linear-gradient(50deg, #FF9D2E 80%, #F9F6F0 0%);
+}
 
 /* -------- #MENU END ---------*/
+
+.caferio {
+    background-color: #ffffff;
+    display: flex;
+    /* height: 700px; */
+}
+
+.caferio-right-icons {
+    background-color: #FF9D2E;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.checkbox {
+    display: flex;
+}
+
+.check {
+    width: 30px;
+    height: 30px;
+}
+
+.samsung {
+    position: absolute;
+    margin-top: -10px;
+}
+
+.samsung-2 {
+    position: absolute;
+    bottom: -1760px;
+    z-index: 2;
+}
+
+.samsung-img {
+    width: 1400px;
+}
