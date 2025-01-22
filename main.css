@@ -425,9 +425,201 @@ header {
     margin-bottom: 25px;
 }
 
+
 .popular-buttom-1 {
-    width: 70px;
-    height: 30px;
-    background-color: ;
+    width: 60px;
+    height: 40px;
+    color:rgb(13, 18, 22);
+    font-size: 16px;
+    font-family: r-500;
+    background-color:#ffffff;
+    border: 1px solid #EDEDED;
+    margin-right: 10px;
+    box-shadow: 3px 3px 5px #e6e4e4;
 }
+
+.popular-buttom-1:hover {
+    background-color:#FF9D2E;
+    color:#ffffff;
+}
+
+.popular-buttom-2 {
+    width: 70px;
+    height: 40px;
+    color:rgb(13, 18, 22);
+    font-size: 16px;
+    font-family: r-500;
+    background-color:#ffffff;
+    border: 1px solid #EDEDED;
+    margin-right: 10px;
+    box-shadow: 3px 3px 5px #e6e4e4;
+}
+
+.popular-buttom-2:hover {
+    background-color:#FF9D2E;
+    color:#ffffff;
+}
+
+.popular-buttom-3 {
+    width: 80px;
+    height: 40px;
+    color:rgb(13, 18, 22);
+    font-size: 16px;
+    font-family: r-500;
+    background-color:#ffffff;
+    border: 1px solid #EDEDED;
+    margin-right: 10px;
+    box-shadow: 3px 3px 5px #e6e4e4;
+}
+
+.popular-buttom-3:hover {
+    background-color:#FF9D2E;
+    color:#ffffff;
+}
+
+.popular-buttom-4 {
+    width: 100px;
+    height: 40px;
+    color:rgb(13, 18, 22);
+    font-size: 16px;
+    font-family: r-500;
+    background-color:#ffffff;
+    border: 1px solid #EDEDED;
+    box-shadow: 3px 3px 5px #e6e4e4;
+}
+
+.popular-buttom-4:hover {
+    background-color:#FF9D2E;
+    color:#ffffff;
+}
+
+
+/* POPULAR MENU TOP 2 START */
+.popular-menu-top-2 {
+    position: relative;
+    padding-left: 100px;
+}
+
+.popular-menu-top-2:hover .order-now-button{
+    visibility: visible;
+}
+
+.price {
+    position: relative;
+    text-align: center;
+    background-color: #ffffff;
+    width: 380px;
+    height: 530px;
+    margin-top: 50px;
+    box-shadow: 3px 3px 5px #ececec;
+}
+
+.order-now-button {
+    position: absolute;
+    left: 200px;
+    top: 270px;
+    width: 200px;
+    height: 40px;
+    background-color: #F42F25;
+    color: #ffffff;
+    font-size: 16px;
+    font-family: r-500;
+    border: none;
+    z-index: 1;
+    visibility: hidden;
+    cursor: pointer;
+}
+
+.price-button {
+    position: absolute;
+    left: 50px;
+    margin-top: 50px;
+    width: 60px;
+    height: 25px;
+    background-color: #F42F25;
+    color: #ffffff;
+    font-size: 13px;
+    font-family: r-600;
+    border: none;
+}
+
+.price-img {
+    padding-top: 80px;
+}
+
+.price-chicken {
+    position: relative;
+    display: flex;
+    margin-left: 60px;
+}
+
+.price-stars {
+    position: absolute;
+    left: 80px;
+    top: 15px;
+    color: #FF9D2E;
+}
+
+.fa-solid {
+    /* width: 20px;
+    height: 2px; */
+    margin-right: 5px;
+    font-size: 12px;
+}
+
+.price-p {
+    color:rgb(120, 120, 120);
+    font-size: 16px;
+    font-family: r-500;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.price-h1 {
+    color: rgb(13, 18, 22);
+    font-size: 22px;
+    font-family: r-600;
+    margin-bottom: 10px;
+    margin-left: -10px;
+}
+
+.price-h2 {
+    color:#F42F25;
+    font-size: 20px;
+    font-family: r-600;
+    /* margin-bottom: 10px; */
+    margin-left: 10px;
+    width: 300px;
+}
+
+.price-span {
+    color:#FF9D2E;
+    font-size: 17px;
+    font-family: r-600;
+    margin-left: 10px;
+}
+
+.price-del {
+    color:rgb(186, 186, 186);
+    font-size: 17px;
+    font-family: r-600;
+    margin-left: 5px;
+}
+
+.popular {
+    display: flex;
+}
+
+#popular-menu-top-3 {
+    margin-left: -70px;
+}
+
+#price-h1 {
+    margin-left: -40px;
+}
+
+#price-h1-1 {
+    margin-left: -60px;
+}
+
 /* -------- #POPULAR DISHES END ---------*/
