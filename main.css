@@ -38,6 +38,7 @@
     width: 1400px;
     height: 8118px;
     background-color: #F9F6F0;
+    /* overflow: scroll #0000; */
 }
 
 
@@ -626,6 +627,94 @@ header {
     margin-left: -60px;
 }
 
-#rice-h1 
+#price-h1 {
+    margin-left: -45px;
+} 
+
+#price-kung-po {
+    margin-left: -25px;
+} 
+
+#price-chicken{
+    margin-left: -85px;
+} 
 
 /* -------- #POPULAR DISHES END ---------*/
+
+
+
+
+/* -------- #THE FOODIE HAVE START ---------*/
+.foodie-have {
+    height: 650px;
+    position: relative;
+    display: flex;
+    margin-top: 150px;
+    background-image: url("./images/hero-bg.jpg");
+}
+
+/* .foodie-have-img {
+    position: absolute;
+    width: 2600px;
+} */
+
+.shape-grey-img {
+    top: 630px;
+    position: absolute;
+    width: 1400px;
+    z-index: 2;
+}
+
+.shape-grey-img-2 {
+    position: absolute;
+    top: -5px;
+    width: 1400px;
+    right: 0px;
+    z-index: 2;
+    transform: rotate(180deg);
+}
+
+.foodie-have-left {
+    padding: 150px 100px 0px 80px;
+}
+
+.foodie-left-h1 {
+    color:rgb(255, 255, 255);
+    font-size: 42px;
+    font-family: r-600;
+    margin-bottom: 40px;
+    width: 600px;
+}
+
+.foodie-left-span {
+    color: #FF9D2E;
+}
+
+.foodie-left-p {
+    color:rgb(222, 222, 222);
+    font-size: 16px;
+    font-family: r-400;
+    line-height: 26px;
+    margin-bottom: 10px;
+}
+
+.foodie-have-right {
+    position: relative;
+    height: 500px;
+}
+
+.foodie-right-img {
+    position: relative;
+    right: 130px;
+    width: 750px;
+    height: 730px;
+}
+
+.foodie-right-img-2 {
+    position: absolute;
+    top: 50px;
+    right: 620px;
+    width: 250px;
+    height: 250px;
+}
+/* -------- #THE FOODIE HAVE END ---------*/
