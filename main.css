@@ -530,6 +530,10 @@ header {
     cursor: pointer;
 }
 
+.order-now-button:hover {
+    background-color: #FF9D2E;
+}
+
 .price-button {
     position: absolute;
     left: 50px;
@@ -621,5 +625,7 @@ header {
 #price-h1-1 {
     margin-left: -60px;
 }
+
+#rice-h1 
 
 /* -------- #POPULAR DISHES END ---------*/
