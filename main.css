@@ -28,6 +28,11 @@
     src: url(./fonts/times.ttf);
 }
 
+@font-face {
+    font-family: roboto-400;
+    src: url(./fonts/Roboto-Regular.ttf);
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -303,6 +308,7 @@ header {
     width: 230px;
     height:230px;
     left: -440px;
+    animation: chegirma 2s alternate ease-in-out infinite;
 }
 
 .samsung {
@@ -712,9 +718,83 @@ header {
 
 .foodie-right-img-2 {
     position: absolute;
-    top: 50px;
-    right: 620px;
-    width: 250px;
-    height: 250px;
+    top: 80px;
+    right: 640px;
+    width: 200px;
+    height: 200px;
+    animation: chegirma 2s ease-in-out alternate infinite;
+}
+
+@keyframes chegirma {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform:scale(1.1);
+    }
 }
 /* -------- #THE FOODIE HAVE END ---------*/
+
+
+
+/* -------- # A MOMENTS OF DELIVERED ON RIGHT TIME START ---------*/
+.middle {
+    display: flex;
+    background-color: #ffffff;
+    height: 650px;
+}
+
+.middle-left {
+    padding: 180px 0px 0px 80px;
+}
+
+.middle-left-h1 {
+    color: rgb(13, 18, 22);
+    font-size: 42px;
+    font-family: r-600;
+    margin-bottom: 20px;
+}
+
+.middle-left-span {
+    color: #FF9D2E;
+}
+
+.middle-left-p {
+    color:  rgb(120, 120, 120);
+    font-size: 16px;
+    font-family: roboto-400;
+    margin-bottom: 10px;
+    line-height: 26px;
+}
+
+.middle-right {
+    position: relative;
+}
+
+.middle-right-img {
+    position: absolute;
+    top: 70px;
+    left: 70px;
+    width: 600px;
+    height: 500px;
+}
+
+.middle-right-2-p {
+    position: absolute;
+    top: 25px;
+    left: 0px;
+    width: 600px;
+    height: 600px;
+    z-index: 2;
+    animation: velo 1s linear alternate;
+}
+
+@keyframes velo {
+    0% {
+        transform: translatex(0px);
+    }
+    100% {
+        transform: translatex(10px);
+    }
+}
+/* -------- # A MOMENTS OF DELIVERED ON RIGHT TIME END ---------*/
