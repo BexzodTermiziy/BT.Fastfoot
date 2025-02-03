@@ -104,10 +104,31 @@ a:hover {
     background-color: hsl(32, 100%, 59%);
     border: none;
     cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    z-index: 0;
+
+    &::before {
+        content: "";
+        position: absolute;
+        z-index: -1;
+        background: #000;
+        width: 42px;
+        height: 42px;
+        left: -42px;
+        bottom: -40px;
+        border-radius: 10px;
+        transform: scale(1);
+        transition: transform 0.70s ease-out;
+    }
+
+    &:hover::before {
+        transform: scale(21);
+    }
 }
 
 .navbar-button:hover {
-    background-color: black;
+    color: rgb(255, 255, 255);
 }
 
 /* -------- #NAVBAR END ---------*/
@@ -229,15 +250,56 @@ header {
     text-align: center;
     border: none;
     background: linear-gradient(-10deg, #FF9D2E 30%, #ffffff 0%);
+
+    position: relative;
+    overflow: hidden;
+    z-index: 0;
+
+    &::before {
+        content: "";
+        position: absolute;
+        z-index: -1;
+        background: #FF9D2E;
+        width: 280px;
+        height: 52px;
+        right:-560px;
+        bottom: -10px;
+        border-radius: 50px;
+        transform: scale(1);
+        transition: transform 0.35s ease-out;
+    }
+
+    &:hover::before {
+        transform: scale(41);
+    }
+}
+
+.pizza:hover  {
+   svg {
+    fill: white;
+    /* position: relative;
+    z-index: 20; */
+   }
+   .pizza-p2 {
+    color: white;
+   }
+
+   .pizza-h1 {
+    color: white;
+   }
+
 }
 
 .pizza{
     border: 1px solid #f3f2f1f1;
 }
 
-.pizza-p1 {
-    padding-top: 5px;
-    padding-bottom: 10px;
+svg {
+    padding-top: -5px;
+    margin-bottom: 10px;
+    transition: fill 0.1s ease;
+    fill:#FF9D2E;
+    /* color:#FF9D2; */
 }
 
 .pizza-h1 {
@@ -391,10 +453,31 @@ header {
     background-color: hsl(32, 100%, 59%);
     border: none;
     cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    z-index: 0;
+
+    &::before {
+        content: "";
+        position: absolute;
+        z-index: -1;
+        background: #000;
+        width: 42px;
+        height: 42px;
+        left: -42px;
+        bottom: -40px;
+        border-radius: 10px;
+        transform: scale(1);
+        transition: transform 0.70s ease-out;
+    }
+
+    &:hover::before {
+        transform: scale(21);
+    }
 }
 
 .caferio-button:hover {
-    background-color: black;
+    color: rgb(255, 255, 255);
 }
 /* -------- #CAFERIO BURGERS END ---------*/
 
