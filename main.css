@@ -881,3 +881,139 @@ svg {
     }
 }
 /* -------- # A MOMENTS OF DELIVERED ON RIGHT TIME END ---------*/
+
+
+
+/* -------- # OUR CUSTOMERS REVIEWS START ---------*/
+.reviews {
+    display: grid;
+    /* height: 100px; */
+    text-align: center;
+    background-color:#F9F6F0 ;
+    /* background-color: #F42F25; */
+    position: relative;
+}
+
+.reviews-grey-img {
+    top: -3px;
+    width: 100%;
+    position: relative;
+    transform: rotate(180deg);
+}
+
+.reviews-white-img {
+    bottom: 0px;
+    width: 100%;
+    position: relative;
+    /* transform: rotate(180deg); */
+}
+
+.reviews-h2 {
+    margin-top: 100px;
+    font-size: 18px;
+    font-family: r-500;
+    color:rgb(250, 36, 25);
+}
+
+.reviews-h1 {
+    margin-top: 10px;
+    font-size: 42px;
+    font-family: r-600;
+    color:black;
+}
+
+.reviews-span {
+    margin-top: 10px;
+    font-size: 42px;
+    font-family: r-600;
+    color:#FF9D2E;
+}
+
+.reviews-p {
+    margin-top: 10px;
+    font-size: 17px;
+    font-family: roboto-400;
+    color:rgb(120, 120, 120);
+    line-height: 26px;
+}
+
+.reviews-images-img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+}
+
+.review-top {
+    /* display: grid;
+    grid-template-columns: auto auto auto; */
+    display: flex;
+    margin-top: 40px;
+}
+
+.reviews-left {
+    margin-left: 80px;
+    width: 400px;
+    background-color:rgb(255, 255, 255);
+    box-shadow: 3px 3px 5px rgb(172, 168, 168);
+}
+
+.reviews-left-box {
+    display: flex;
+}
+
+.rewiews-images {
+    padding: 30px;
+}
+
+.reviews-name-h1 {
+    margin-top: 45px;
+    font-size: 18px;
+    font-family: r-600;
+    color:black;
+}
+
+.reviews-name-p {
+    margin-left: -30px;
+    margin-top: 3px;
+    font-size: 14px;
+    font-family: r-400;
+    color:rgb(120, 120, 120);
+}
+
+.reviews-left-p {
+    margin-left: 30px;
+    /* margin-top: 3px; */
+    font-size: 16px;
+    font-family: roboto-400;
+    color:rgb(120, 120, 120);
+    line-height: 26px;
+    text-align: left;
+}
+
+.reviews-stars {
+    margin-left: -230px;
+    margin-bottom: 40px;
+
+}
+
+.fa-solid {
+    margin-top: 20px;
+    color: #FF9D2E;
+}
+
+
+.reviews-middle {
+    margin-left: 15px;
+    width: 400px;
+    background-color:rgb(255, 255, 255);
+    box-shadow: 3px 3px 5px rgb(172, 168, 168);
+}
+
+.reviews-right {
+    margin-left: 15px;
+    width: 400px;
+    background-color:rgb(255, 255, 255);
+    box-shadow: 3px 3px 5px rgb(172, 168, 168);
+}
+
+/* -------- # OUR CUSTOMERS REVIEWS END ---------*/
