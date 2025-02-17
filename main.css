@@ -954,7 +954,7 @@ svg {
     margin-left: 80px;
     width: 400px;
     background-color:rgb(255, 255, 255);
-    box-shadow: 3px 3px 5px rgb(172, 168, 168);
+    box-shadow: 3px 3px 5px #F9F6F0;
 }
 
 .reviews-left-box {
@@ -1006,14 +1006,49 @@ svg {
     margin-left: 15px;
     width: 400px;
     background-color:rgb(255, 255, 255);
-    box-shadow: 3px 3px 5px rgb(172, 168, 168);
+    box-shadow: 3px 3px 5px #F9F6F0;
 }
 
 .reviews-right {
     margin-left: 15px;
     width: 400px;
     background-color:rgb(255, 255, 255);
-    box-shadow: 3px 3px 5px rgb(172, 168, 168);
+    box-shadow: 3px 3px 5px #F9F6F0;
 }
 
 /* -------- # OUR CUSTOMERS REVIEWS END ---------*/
+
+
+
+/* -------- # OFF NOW START ---------*/
+.off_now {
+    height: 670px;
+    background-color: #ffffff;
+    display: flex;
+}
+
+.off_now-items {
+    /* position: relative; */
+    /* display: inline-block; */
+    margin: 50px;
+    width:580px;
+    height: 430px;
+    /* background-image: url("./images/banner-1.jpg"); */
+    overflow: hidden;
+}
+
+.off-now-img {
+    /* position: absolute; */
+    width:600px;
+    height: 450px;
+    /* background-size: cover; */
+    transition: transform 0.3s ease-in-out;
+    /* z-index: -1; */
+}
+
+.off_now-items:hover .off-now-img  {
+   transform: scale3d(1,1,-1);
+   width:620px;
+   height:470px;
+}
+/* -------- # OFF NOW END ---------*/
