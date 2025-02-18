@@ -902,10 +902,13 @@ svg {
 }
 
 .reviews-white-img {
+    /* border: 3px solid red; */
+    top: 20px;
     bottom: 0px;
     width: 100%;
     position: relative;
-    /* transform: rotate(180deg); */
+    z-index: 2;
+    transform: rotate(180deg);
 }
 
 .reviews-h2 {
@@ -948,6 +951,7 @@ svg {
     grid-template-columns: auto auto auto; */
     display: flex;
     margin-top: 40px;
+    padding-bottom: 100px;
 }
 
 .reviews-left {
@@ -1022,33 +1026,189 @@ svg {
 
 /* -------- # OFF NOW START ---------*/
 .off_now {
+    position: relative;
     height: 670px;
+    padding-top: 100px;
     background-color: #ffffff;
     display: flex;
 }
 
 .off_now-items {
-    /* position: relative; */
-    /* display: inline-block; */
+    position: relative;
     margin: 50px;
     width:580px;
     height: 430px;
-    /* background-image: url("./images/banner-1.jpg"); */
     overflow: hidden;
+    display: inline-block;
+    border-radius: 10px;
 }
 
 .off-now-img {
-    /* position: absolute; */
-    width:600px;
-    height: 450px;
-    /* background-size: cover; */
+    width:100%;
+    height: 100%;
     transition: transform 0.3s ease-in-out;
-    /* z-index: -1; */
 }
 
 .off_now-items:hover .off-now-img  {
-   transform: scale3d(1,1,-1);
-   width:620px;
-   height:470px;
+   transform: scale(1.1);
+}
+
+.off_now-items-h1 {
+    position: absolute;
+    font-size: 32px;
+    font-family: r-600;
+    line-height: 43px;
+    color:rgb(255, 255, 255);
+    left: 30px;
+    top: 110px;
+}
+
+.off_now-items-p {
+    position: absolute;
+    font-size: 16px;
+    font-family: roboto-400;
+    color:rgb(255, 255, 255);
+    left: 30px;
+    top: 250px;
+}
+
+.submit-btn-1 {
+    position: absolute;
+    left: 30px;
+    top: 270px;
+    width: 120px;
+    height: 40px;
+    background-color: #FF8D29;
+}
+
+
+.off_now-item-top {
+    display: flex;
+}
+
+.delicious_pizza {
+    position: absolute;
+    top: 150px;
+    left: 640px;
+    width:300px;
+    height: 190px;
+    overflow: hidden;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+.delicious_pizza:hover .off-now-img {
+    transform: scale(1.1);
+}
+
+.off_now-item-h1 {
+    position: absolute;
+    font-size: 32px;
+    font-family: r-600;
+    line-height: 43px;
+    color:rgb(255, 255, 255);
+    left: 20px;
+    top: 10px;
+}
+
+.off_now-item-p {
+    position: absolute;
+    font-size: 16px;
+    font-family: roboto-400;
+    color:rgb(255, 255, 255);
+    left: 20px;
+    top: 100px;
+}
+
+.submit-top-btn {
+    position: absolute;
+    left: 20px;
+    top: 115px;
+    width: 120px;
+    height: 40px;
+}
+
+.off_now-item-top-right {
+    position: absolute;
+    top: 150px;
+    left: 950px;
+    width:300px;
+    height: 190px;
+    overflow: hidden;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+.off_now-item-top-right:hover .off-now-img {
+    transform: scale(1.1);
+}
+
+.off_now-item-top-h1 {
+    position: absolute;
+    font-size: 32px;
+    font-family: r-600;
+    line-height: 43px;
+    color:rgb(255, 255, 255);
+    left: 20px;
+    top: 10px;
+}
+
+.off_now-item-top-p {
+    position: absolute;
+    font-size: 16px;
+    font-family: roboto-400;
+    color:rgb(255, 255, 255);
+    left: 20px;
+    top: 100px;
+}
+
+.submit-right-btn {
+    position: absolute;
+    left: 20px;
+    top: 115px;
+    width: 120px;
+    height: 40px;
+}
+
+.off_now-item-box {
+    position: absolute;
+    top: 348px;
+    left: 640px;
+    width:609px;
+    height: 231px;
+    overflow: hidden;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+.off_now-item-box:hover .off-now-img {
+    transform: scale(1.1);
+}
+
+.off_now-item-box-h1 {
+    position: absolute;
+    font-size: 32px;
+    font-family: r-600;
+    line-height: 43px;
+    color:rgb(255, 255, 255);
+    left: 340px;
+    top: 25px;
+}
+
+.off_now-item-box-p {
+    position: absolute;
+    font-size: 16px;
+    font-family: roboto-400;
+    color:rgb(255, 255, 255);
+    left: 340px;
+    top: 120px;
+}
+
+.submit-box-btn {
+    position: absolute;
+    left: 340px;
+    top: 140px;
+    width: 120px;
+    height: 40px;
 }
 /* -------- # OFF NOW END ---------*/
