@@ -526,6 +526,7 @@ svg {
     border: 1px solid #EDEDED;
     margin-right: 10px;
     box-shadow: 3px 3px 5px #e6e4e4;
+    cursor: pointer;
 }
 
 .popular-buttom-1:hover {
@@ -543,6 +544,7 @@ svg {
     border: 1px solid #EDEDED;
     margin-right: 10px;
     box-shadow: 3px 3px 5px #e6e4e4;
+    cursor: pointer;
 }
 
 .popular-buttom-2:hover {
@@ -560,6 +562,7 @@ svg {
     border: 1px solid #EDEDED;
     margin-right: 10px;
     box-shadow: 3px 3px 5px #e6e4e4;
+    cursor: pointer;
 }
 
 .popular-buttom-3:hover {
@@ -576,6 +579,7 @@ svg {
     background-color:#ffffff;
     border: 1px solid #EDEDED;
     box-shadow: 3px 3px 5px #e6e4e4;
+    cursor: pointer;
 }
 
 .popular-buttom-4:hover {
@@ -1211,4 +1215,174 @@ svg {
     width: 120px;
     height: 40px;
 }
+
+.img-off-now {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+}
 /* -------- # OFF NOW END ---------*/
+
+
+
+/* -------- # Latest Blog Posts START ---------*/
+.blog_posts {
+   text-align: center;
+}
+
+.blog-posts-p1 {
+    font-size: 16px;
+    font-family: r-500;
+    color: rgb(244, 47, 37);
+    padding-top: 100px;
+}
+
+.blog-h1 {
+    font-size: 42px;
+    font-family: r-600;
+    color:rgb(13, 18, 22);
+    padding-top: 10px;
+}
+
+.blog-span {
+    color:rgb(255, 157, 46);
+}
+
+.blog-p2 {
+    font-size:16px;
+    font-family: roboto-400;
+    color:rgb(120, 120, 120);
+    padding-top: 10px;
+    line-height: 26px;
+    padding-bottom: 30px;
+}
+
+.blog-ul {
+    width: 1170px;
+    height: 515px;
+    gap: 30px;
+    margin: 0 auto;
+}
+
+
+.blog-pizza {
+    position: relative;
+    background-color: white;
+    box-shadow: 3px 3px 5px rgb(175, 173, 173);
+    padding-right: 0px;
+}
+
+.blog-img {
+    width: 370px;
+    height: 240px;
+    position: relative;
+}
+
+.blog-1-images {
+    width: 100%;
+    height: 100%;
+}
+
+.blog-btn {
+    width: 65px;
+    height: 30px;
+    background-color: #EB8314;
+    font-size:12px;
+    font-family: r-600;
+    color:white;
+    border: none;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.blog-btn-2 {
+    width: 75px;
+    height: 30px;
+    background-color: #EB8314;
+    font-size:12px;
+    font-family: r-600;
+    color:white;
+    border: none;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.blog-btn-3 {
+    width: 75px;
+    height: 30px;
+    background-color: #EB8314;
+    font-size:12px;
+    font-family: r-600;
+    color:white;
+    border: none;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.blog-li-p {
+    position: relative;
+    left: 30px;
+    text-align: start;
+    font-size:16px;
+    font-family:r-600;
+    cursor: pointer;
+}
+
+.blog-b:hover {
+   color: #FF9D2E;
+}
+
+.blog-b2:hover {
+   color: #FF9D2E;
+}
+
+.fa-calendar-days {
+    font-size:16px;
+    color: #EB8314;
+}
+
+.fa-user {
+    font-size:16px;
+    color: #EB8314;
+    margin-left: 20px;
+}
+
+.blog-li-h1 {
+    font-size:22px;
+    font-family: r-600;
+    color:black;
+    margin-top: 20px;
+    position: relative;
+    left: 30px;
+    text-align: start;
+    cursor: pointer;
+}
+
+.blog-li-h1:hover {
+    text-decoration:underline;
+    color:rgb(78, 78, 78);
+}
+
+.blog-pizza-p {
+    font-size:16px;
+    font-family: roboto-400;
+    color:rgb(120, 120, 120);
+    margin-top: 20px;
+    line-height: 26px;
+    position: relative;
+    left: 30px;
+    text-align: start;
+}
+
+#blog-read_more {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    left: 0;
+    text-align: start;
+}
+/* -------- # Latest Blog Posts END ---------*/
