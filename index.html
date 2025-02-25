@@ -14,7 +14,7 @@
             -- HEADER START --
          -->
 
-        <div class="header">
+        <div class="header" id="header">
 
             <!-- 
                 -- NAVBAR START --
@@ -24,10 +24,10 @@
                 <nav>
                     <h1 class="navbar-h1"><b>Foodie</b><span class="navbar-span">.</span></h1>
                     <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="#">Shop</a></li>
-                        <li><a href="#">Blog</a></li>
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#caferio">About Us</a></li>
+                        <li><a href="#popular">Shop</a></li>
+                        <li><a href="#blog">Blog</a></li>
                         <li><a href="#">Contact Us</a></li>
                     </ul>
                     <button type="submit" class="navbar-button">Reservation</button>
@@ -212,7 +212,7 @@
           <!-- 
             -- CAFERIO BURGERS START --
          -->
-         <div class="caferio">
+         <div class="caferio" id="caferio">
 
             <!----- CAFERIO LEFT START ----->
 
@@ -287,7 +287,7 @@
             -- POPULAR DISHES START --
          -->
 
-         <div class="popular-menu">
+         <div class="popular-menu" id="popular">
 
             <!-- POPULAR MENU TOP START -->
             <div class="popular-menu-top">
@@ -313,7 +313,7 @@
                    <div class="order-now">
                        <button type="submit" class="order-now-button">Order Now</button>
                    </div>
-                   <div class="price">
+                   <div class="price" id="prince-1">
                        <button type="submit" class="price-button">-15%</button>
                        <div class="price-img">
                            <img src="./images/food-menu-1.png" alt="">
@@ -340,7 +340,7 @@
                    <div class="order-now">
                        <button type="submit" class="order-now-button">Order Now</button>
                    </div>
-                   <div class="price">
+                   <div class="price" id="prince-2">
                        <button type="submit" class="price-button">-10%</button>
                        <div class="price-img">
                            <img src="./images/food-menu-2.png" alt="">
@@ -363,7 +363,7 @@
    
    
                 <!-- POPULAR MENU TOP 3 START -->
-                <div class="popular-menu-top-2" id="popular-menu-top-3">
+                <div class="popular-menu-top-2"  id="prince-3">
                    <div class="order-now">
                        <button type="submit" class="order-now-button">Order Now</button>
                    </div>
@@ -739,7 +739,7 @@
             -- Latest Blog Posts START --
          -->
 
-         <div class="blog_posts">
+         <div class="blog_posts" id="blog">
             <p class="blog-posts-p1">Latest Blog Posts</p>
             <h1 class="blog-h1">
                 This Is All About <span class="blog-span"> Foods</span>
@@ -780,7 +780,7 @@
                         more...
                       </p>
 
-                      <a id="blog-read_more" href="#">
+                      <a class="blog-read_more" href="#">
                         <span class="Readmore-span">Read More</span>
                         <i class="fa-solid fa-arrow-right"></i>
                       </a>
@@ -859,9 +859,81 @@
                     </li>
                 </ul>
             </div>
+            <img class="footer-img" src="./images/shape-white.png" alt="">
          </div>
          <!-- 
             -- Latest Blog Posts END --
+         -->
+
+
+
+          <!-- 
+            -- FOOTER START --
+         -->
+
+         <div class="footer_top">
+             <img class="footer-delivery-boy" src="./images/delivery-boy.svg" alt="">
+            <div class="footer-box">
+                <footer>
+                    <ul class="footer-ul">
+                        <li class="footer-li-1">
+                            <h1 class="footer-li-h1">Foodie<span class="footer-span">.</span></h1>
+                            <p class="footer-p">
+                                Financial experts support or help you to to <br>
+                                find out which way you can raise your <br>
+                                funds more.
+                            </p>
+                            <span class="facebook">
+                                <i class="fa-brands fa-facebook"></i>
+                            </span>
+                            <span class="twitter">
+                                <i class="fa-brands fa-twitter"></i>
+                            </span>
+                            <span class="instagram">
+                                <i class="fa-brands fa-instagram"></i>
+                            </span>
+                            <span class="pinterest">
+                                <i class="fa-brands fa-pinterest"></i>
+                            </span>
+                        </li>
+
+                        <li class="footer-li-2">
+                            <h2 class="footer-h2">Contact Info <span></span></h2>
+                            <p class="footer-p2">+1 (062) 109-9222</p>
+                            <p class="footer-p3">Info@YourGmail24.com</p>
+                            <p class="footer-p4">153 Williamson Plaza, <br>Maggieberg, MT 09514</p>
+                        </li>
+
+                        <li class="footer-li-3">
+                            <h2 class="footer-h2">Opening Hours<span></span></h2>
+                            <p class="footer-p2">Monday-Friday: 08:00-22:00</p>
+                            <p class="footer-p3">Tuesday 4PM: Till Mid Night</p>
+                            <p class="footer-p4">Saturday: 10:00-16:00</p>
+                        </li>
+
+                        <li class="footer-li-4">
+                            <input type="text" id="name" placeholder="Your Name">
+                            <input type="text" id="email" placeholder="Email"><br>
+                            <select name="person" id="person">
+                                <option value="">Person</option>
+                                <option value="">2 Person</option>
+                                <option value="">3 Person</option>
+                                <option value="">4 Person</option>
+                            </select>
+                            <label for="date"></label>
+                            <input type="date" id="date"><br>
+                            <textarea name="text" id="text" cols="30" rows="10" placeholder="Message"></textarea><br>
+                            <button type="submit" class="footer-btn">Book a Table</button>
+                        </li>
+                    </ul>
+                </footer>
+            </div>
+            <p class="footer-box-p">
+                © 2024 <span class="footer-box-span">codewithsadee</span> All Rights Reserved.
+            </p>
+         </div>
+          <!-- 
+            -- FOOTER END --
          -->
     </div>
 </body>
