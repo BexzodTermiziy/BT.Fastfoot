@@ -593,7 +593,7 @@ svg {
     position: relative;
 }
 
-.popular-menu-top-2:hover .order-now-button{
+.price:hover .order-now-button{
     visibility: visible;
 }
 
@@ -610,8 +610,8 @@ svg {
 
 .order-now-button {
     position: absolute;
-    left: 200px;
-    top: 270px;
+    left: 100px;
+    top: 210px;
     width: 200px;
     height: 40px;
     background-color: #F42F25;
@@ -653,8 +653,8 @@ svg {
 
 .price-stars {
     position: absolute;
-    left: 80px;
-    top: 15px;
+    left: 70px;
+    /* top: 15px; */
     color: #FF9D2E;
 }
 
@@ -678,7 +678,8 @@ svg {
     font-size: 22px;
     font-family: r-600;
     margin-bottom: 10px;
-    margin-left: -10px;
+    margin-left: 8px;
+    width: 300px;
 }
 
 .price-h2 {
@@ -710,15 +711,30 @@ svg {
 
 #prince-1 {
     position: relative;
-    left: 70px;
+    left: 85px;
 }
 #prince-2 {
     position: relative;
-    left: 170px;
+    left: 120px;
 }
 #prince-3 {
     position: relative;
-    left: 270px;
+    left: 150px;
+}
+
+#prince-11 {
+     position: relative;
+    left: 85px;
+}
+
+#prince-22 {
+    position: relative;
+    left: 120px;
+}
+
+#prince-33 {
+    position: relative;
+    left: 150px;
 }
 
 #popular-menu-top-3 {
@@ -729,20 +745,20 @@ svg {
     margin-left: -40px;
 }
 
-#price-h1-1 {
-    margin-left: -60px;
+#price-fried {
+    margin-left: 35px;
 }
 
 #price-h1 {
-    margin-left: -45px;
+    margin-left: 20px;
 } 
 
 #price-kung-po {
-    margin-left: -25px;
+    margin-left: 30px;
 } 
 
 #price-chicken{
-    margin-left: -85px;
+    margin-left: 0px;
 } 
 
 /* -------- #POPULAR DISHES END ---------*/
